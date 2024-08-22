@@ -26,3 +26,4 @@ console.log(correcturl)
 console.log(correcturl.includes('.com'))
 
 console.log(gameName.split('-'))
+
