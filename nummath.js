@@ -25,7 +25,10 @@
  console.log(Math.floor(Math.random()*10+1)) // ranges from 1-9 \
  // we used +1 so that 0 does not come because if the value is 0.02 then even after multiplying the value is 0
 
+ // when we want a random value from a range
  const min =10
  const max =20
  
  console.log(Math.floor(Math.random() * (max -min +1) + min))
+
+ 
