@@ -11,7 +11,7 @@ const allnewheros = [...marvel_heros,...dc_heros]  // this will do the same as c
 console.log(allnewheros)
 
 const anotherarray =[1,2,3,[4,5,6],7,[6,7,[4,5]]]
-const usablearray = anotherarray.flat(Infinity)
+const usablearray = anotherarray.flat(Infinity) // It is used to merge all array in one when they are nested in one another
 console.log(usablearray)
 
 console.log(Array.isArray("Joker"))
@@ -21,4 +21,4 @@ let score1 =100
 let score2 =200
 let score3 =300
 
-console.log(Array.of(score1,score2,score3))
+console.log(Array.of(score1,score2,score3)) // creates new instance of an array
