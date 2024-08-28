@@ -23,4 +23,5 @@ const afun = () =>{
 afun()
 
 const addTwo= (num1 , num2) => num1 + num2  // Another way to declare arrow function
-console.log(addTwo(5,4))
+console.log(addTwo(5,4));
+
