@@ -1,0 +1,39 @@
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.button{
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+span{
+    width: 50px;
+}
+#grey{
+    background-color: grey;
+}
+#white{
+    background-color: white;
+    border: 1px solid black;
+}
+#blue{
+    background-color: blue;
+}
+#yellow{
+    background-color: yellow;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
