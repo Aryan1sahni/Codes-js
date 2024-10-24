@@ -18,8 +18,6 @@ const startchangingcolor =function(){
         intervalid= setInterval(change,1000)
     }
 
-    
-    
 }
 
 const stopchangingcolor = function(){
