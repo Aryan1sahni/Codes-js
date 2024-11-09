@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(56, 54, 54);
+}
+.Main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border: 3px soild black;
+    width: 10%;
+    
+}
+.Game{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 50px;
+    
+}
+button{
+    width: 150px;
+    height: 150px;
+    font-size: 40px;
+    background-color: rgb(182, 178, 174);
+}
+h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'egoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font-size: 60px;
+}
+.reset{
+    width: 150px;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}

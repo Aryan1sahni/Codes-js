@@ -15,7 +15,7 @@ for (let i = 0; i < buttonn.length; i++) {
             result.value = ""
         }
         else{
-        let num =e.target.textContent
+        let num = e.target.textContent
         str = str + num
         console.log(str)
         result.value = str
