@@ -34,7 +34,7 @@ function clearbox(){
             clear.innerHTML =""
         })
 
-    player1 = true;  // Reset to player 1's turn
+    player1 = true;  
     player2 = false;
 }
 
