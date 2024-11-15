@@ -9,7 +9,7 @@ class User{
 
 class Teacher extends User{
     constructor(username,email){
-        super(username)
+        super(username) // When using from some other class that we have extended
         this.email = email
     }
     addCourse(){
